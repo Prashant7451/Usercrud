@@ -1,0 +1,70 @@
+.main {
+    min-height: 93vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../images/background1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.sub-title {
+    font-size: 1.6em;
+    padding-top: 30px;
+}
+
+.intro-text {
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.landingbutton {
+    width: 200px;
+    height: 55px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .button {
+        padding: 0 200px;
+    }
+}
+
+@media only screen and (max-width: 968px) {
+    .title {
+        font-size: 1.9em;
+    }
+    .sub-title {
+        font-size: 1em;
+        padding-top: 30px;
+    }
+
+    .landingbutton {
+        width: 150px;
+        height: 50px;
+    }
+}
+
+.profilePic {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  .profileContainer {
+    display: flex;
+    margin: 20px;
+  }
+  @media only screen and (max-width: 768px) {
+    .profileContainer {
+      flex-direction: column-reverse;
+    }
+  }
